@@ -63,7 +63,7 @@ def generate_info(client, message):
         
         f"**๏ ᴢɪᴘᴄᴏᴅᴇ ➠** {zipcode}\n"
 
-        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ 𝚲ﾚɪᴄᴇ"
     )
 
     # Send the fake data to the user

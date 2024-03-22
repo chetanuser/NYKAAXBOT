@@ -23,7 +23,7 @@ async def handwrite(_, message: Message):
 ✦ sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ✦
 
 ๏ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠ {message.from_user.mention}
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/alice2robot)
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [𝚲ﾚɪᴄᴇ](https://t.me/alice2robot)
 """
     await m.delete()
     await message.reply_photo(photo=write,caption=caption, reply_markup=InlineKeyboardMarkup(EVAA),)

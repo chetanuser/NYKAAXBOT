@@ -25,7 +25,7 @@ def meme_command(client, message):
         title = data.get("title")
 
         # Mention the bot username in the caption
-        caption = f"✦ {title}\n\n❅ ʀᴇǫᴜᴇsᴛ ʙʏ ➠ {message.from_user.mention}\n❅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/h_cc_help)"
+        caption = f"✦ {title}\n\n❅ ʀᴇǫᴜᴇsᴛ ʙʏ ➠ {message.from_user.mention}\n❅ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [𝚲ﾚɪᴄᴇ](https://t.me/h_cc_help)"
 
         # Send the meme image to the user with the modified caption
         message.reply_photo(

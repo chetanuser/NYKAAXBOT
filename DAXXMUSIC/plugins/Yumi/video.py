@@ -83,7 +83,7 @@ async def ytmusic(client, message: Message):
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"✦ **ᴛɪᴛʟᴇ ➠** [{thum}]({mo})\n\n๏ **ᴄʜᴀɴɴᴇʟ ➠** {thums}\n๏ **sᴇᴀʀᴄʜᴇᴅ ➠** {urlissed}\n๏ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠** {chutiya}\n\n**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐**"
+    capy = f"✦ **ᴛɪᴛʟᴇ ➠** [{thum}]({mo})\n\n๏ **ᴄʜᴀɴɴᴇʟ ➠** {thums}\n๏ **sᴇᴀʀᴄʜᴇᴅ ➠** {urlissed}\n๏ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠** {chutiya}\n\n**๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ 𝚲ﾚɪᴄᴇ**"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),

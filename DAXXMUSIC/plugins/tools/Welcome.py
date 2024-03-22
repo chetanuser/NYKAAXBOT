@@ -127,7 +127,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ๏ ᴜsᴇʀɴᴀᴍᴇ ➠ @{user.username}
 ๏ ᴜsᴇʀ ɪᴅ  ➠ {user.id}
 
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/alice2robot)**
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [𝚲ﾚɪᴄᴇ](https://t.me/alice2robot)**
 """,
 reply_markup=InlineKeyboardMarkup(
 [
